@@ -1,0 +1,30 @@
+
+select {
+	height: 80px;
+    width: 45%;
+  }
+
+  p, .dropdown{
+  	margin-top: 2%;
+  	margin-left:4%;
+  }
+
+  .btn-danger, footer{
+  	   margin-left: 5%;
+  }
+
+   footer {
+  	background-color: #d9534f;
+  	width:90%;
+  	height:auto;
+  	margin-top: 75%;
+  }
+
+  section a{
+  	display:block;
+  }
+
+  section h3, section a{
+  	clear:both;
+  }
+
