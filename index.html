@@ -11,6 +11,8 @@
 
 	<header role="banner">
 
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80598.70582337957!2d4.305349946725349!3d50.85506246124405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2sBrussels!5e0!3m2!1sen!2sbe!4v1492876830478" frameborder="0"></iframe>
+
 		<h1 class="text-center"> React </h1>
 
 		<button type="button" class="btn btn-danger col-md-10">Danger</button>
@@ -19,17 +21,84 @@
 
 		<p class="col-md-5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores earum autem a libero perferendis esse error dolorem, reiciendis aliquid sed repellat, ipsa tempora? Eaque, explicabo! Molestias vitae illum, laudantium ab! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo. Laboriosam quam reiciendis fugit, ducimus modi ipsa, veniam illo possimus sequi aut beatae iste aspernatur aliquam velit qui soluta in!</p>
 
+		<!--DROWPDOWN-->
+
 	 <div class="dropdown col-md-5">
 	    <select name="incident">
 			  <option value="choix"> --Choisisez l'incident </option>
+			  <option value="guerre mondiale"> 3eme Guerre Mondiale </option>
+			  <option value="Alerte Bombe"> Alerte Bombe </option>
 			  <option value="Attentat"> Attentat </option>
-			  <option value="Agression"> Agression </option>
-			  <option value="Viole"> Viole </option>
-			  <option value="Vandalisme"> Vandalisme </option>
-			  <option value="Cambriolage"> Cambriolage </option>
+			  <option value="Fusillade"> Fusillade </option>
+			  <option value="Incendie"> Incendie </option>
+			  <option value="Tremblement De Terre"> Tremblement De Terre </option>
 		</select> 
 	    
   	 </div>
+
+  	 <!--FIN DU DROPDOWN-->
+
+  	 <!-- FORMULAIRE-->
+
+  	 <div class="row"> 
+
+  	 	<div class="col-md-12">
+  	 		 <form>
+				<fieldset>
+					<legend>Type De Communication</legend>
+
+				<input type="checkbox" name="facebook"> Facebook <br>
+
+				<input type="checkbox" name="twitter"> Twitter <br>
+				
+				<input type="checkbox" name="bluetooth"> Bluetooth <br>
+				
+				<input type="checkbox" name="email"> Email <br>
+
+				<input type="checkbox" name="appel"> Appel <br>
+				
+				<input type="checkbox" name="panneau publicitaire"> Panneau Publicitaire <br>
+				
+				<input type="checkbox" name="sms"> SMS
+
+				<br>
+
+				<hr>
+
+				</fieldset>
+
+				<fieldset> <span> Gestion De Communication </span> <hr>
+				
+					Nom: <input type="text" name="nom"> <br> <br>
+					
+					Prenom: <input type="text" name="prenom"> <br> <br>
+					
+					Date Et heure <input type="date" name="date"> <br> <br>
+					
+					<!--<label for="message"> </label> -->
+					Message: <textarea> </textarea> <br> <br>
+					
+					Email: <input type="email" name="email"> <br> <br>
+
+					 Telephone: <input type="tel" name="usrtel"> <br> <br>
+
+				<input type="submit" value="Enregistrer">
+
+				<!-- reset value clears page content useful if user realizes they made a mistake-->
+
+				<input type="reset" value="effacez form"> 
+	
+				</fieldset>
+			</form>	
+
+  	 	</div> <!--col-md-12-->
+
+
+  	 <!-- FIN DU FORMULAIRE-->
+
+  	 </div> <!--row-->
+
+  	 <!--FOOTER-->
 
 	<footer role="contentinfo">
 		
@@ -37,14 +106,16 @@
 
 			<h3 class="pull-right">  Nos Partenaires </h3> 
 			
-				<a class="pull-right" href="http://www.startupfactory.be/"> Startup Factory </a>
-				<a class="pull-right" href="http://www.abe-bao.be/en"> Impulse </a>
-				<a class="pull-right" href="https://crisiscentrum.be/fr"> Centre de Crise Federale</a>
-				<a class="pull-right" href="http://be.brussels/about-the-region/regional-bodies/brussels-prevention-and-security"> Bruxelles Prevention</a>
+				<a target="_blank" class="pull-right" href="http://www.startupfactory.be/"> Startup Factory </a>
+				<a target="_blank" class="pull-right" href="http://www.abe-bao.be/en"> Impulse </a>
+				<a target="_blank" class="pull-right" href="https://crisiscentrum.be/fr"> Centre de Crise Federale</a>
+				<a target="_blank" class="pull-right" href="http://be.brussels/about-the-region/regional-bodies/brussels-prevention-and-security"> Bruxelles Prevention</a>
 		
 		</section>
 	
 	</footer>
+
+	<!--FIN DU FOOTER-->
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
